@@ -15,9 +15,9 @@ const ApexChart = () => {
           customScale: 1,
           donut: {
             labels: {
-              show: false,
+              show: true,
               name: {
-                show: false 
+                show: true 
               }
             }
           }
@@ -53,9 +53,12 @@ const ApexChart = () => {
 
   return (
     <div>
-      <div id="chart">
-        <Typography fontWeight='bold' fontSize='1.2rem'>Customers</Typography>
+      <Typography fontWeight='bold' fontSize='1rem'>Customers</Typography>
         <Typography>Customers that buy products</Typography>
+        <br/>
+        <br/>
+      <div id="chart">
+        
         <Chart options={chartData.options} series={chartData.series} type="donut"/>
       </div>
     </div>

@@ -76,7 +76,7 @@ function Dashboard() {
               title="Earning"
               amount="$198k"
               percentage="37.8% this month"
-              icon={<Icon icon="ant-design:dollar-circle-outlined" width="5em" height="5em"  style={{color: 'green'}} />}
+              icon={<Icon icon="ant-design:dollar-circle-outlined" width="3em" height="3em"  style={{color: 'green'}} />}
               color="#80ffcc"
               indicater='green'
             />
@@ -86,7 +86,7 @@ function Dashboard() {
               title="Expenses"
               amount="$2.4k"
               percentage="25.5% this month"
-              icon={<Icon icon="charm:notes" width="4em" height="4em"  style={{color: '#9716a8'}} />}
+              icon={<Icon icon="charm:notes" width="3em" height="3em"  style={{color: '#9716a8'}} />}
               color="#d59beb"
               indicater='red'
             />
@@ -96,7 +96,7 @@ function Dashboard() {
               title="Savings"
               amount="$2.4k"
               percentage="12.3% this month"
-              icon={<Icon icon="fluent:book-coins-24-regular" width="4em" height="4em"  style={{color: 'blue'}} />}
+              icon={<Icon icon="fluent:book-coins-24-regular" width="3em" height="3em"  style={{color: 'blue'}} />}
               color="#aed0e8"
               indicater='red'
             />
@@ -106,7 +106,7 @@ function Dashboard() {
               title="Investments"
               amount="$89k"
               percentage="45.6% this month"
-              icon={<Icon icon="solar:bag-5-linear" width="4em" height="4em"  style={{color: '#e61e2b'}} />}
+              icon={<Icon icon="solar:bag-5-linear" width="3em" height="3em"  style={{color: '#e61e2b'}} />}
               color="#f590bc"
               indicater='green'
             />
@@ -119,7 +119,7 @@ function Dashboard() {
               <BarChats />
             </Card>
           </Grid>
-          <Grid item xs={12} sm={4} md={3.6}>
+          <Grid item xs={12} sm={5} md={3.8}>
             <Card sx={{ width: '100%', height:'85%',padding: '20px' }}>
               <PieChart />
             </Card>

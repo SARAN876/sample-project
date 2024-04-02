@@ -18,8 +18,8 @@ function CustomCard({ title, amount, percentage, icon, color, indicater }) {
           <Grid item>
             <Paper
               sx={{
-                width: 150,
-                height: 150,
+                width: 70,
+                height: 70,
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -31,14 +31,14 @@ function CustomCard({ title, amount, percentage, icon, color, indicater }) {
             </Paper>
           </Grid>
           <Grid item>
-            <Typography variant="body1" sx={{ fontSize: '0.8rem' }}>{title}</Typography>
-            <Typography variant="h6" sx={{ fontSize: '2rem' }}>{amount}</Typography>
-            <Typography variant="body2" sx={{ fontSize: '1rem' }}>
+            <Typography variant="body1" sx={{ fontSize: '0.5rem' }}>{title}</Typography>
+            <Typography variant="h6" sx={{ fontSize: '1rem' }}>{amount}</Typography>
+            <Typography variant="body2" sx={{ fontSize: '0.7rem' }}>
               <span>
                 <Icon
                   icon={indicater === 'green' ? "mingcute:arrow-up-line" : "mingcute:arrow-down-line"}
-                  width="1em"
-                  height="1em"
+                  width="0.7em"
+                  height="0.7em"
                   style={{ color: indicater==='green'? 'green':'red' }}
                 />
               </span>
